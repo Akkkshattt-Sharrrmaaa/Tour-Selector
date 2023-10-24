@@ -9,7 +9,7 @@ function App() {
      
     function removeTour(id){
 
-        const newTours = tours.filter(tour => tour.id != id);
+        const newTours = tours.filter((tour) => tour.id != id);
         setTours(newTours); 
     }
 
