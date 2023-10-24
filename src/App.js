@@ -23,7 +23,7 @@ function App() {
 
             <div className="refresh">
                 <h2> No Tours Left </h2>
-                <butto className="btn-white" onClick={refreshHandler}> Refresh </butto>
+                <button className="btn-white" onClick={refreshHandler}> Refresh </button>
             </div>
 
         );
